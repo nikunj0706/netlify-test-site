@@ -25,16 +25,12 @@ export default function HTML(props) {
         />
         {props.postBodyComponents}
         <script dangerouslySetInnerHTML= {{ __html: ` 
+    var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || 
+    {widgetcode:"a9644b0d0e5583470c21d57acd3fe73a8e9d6312c85b7e05d12e70a5edbbd52e", values:{},ready:function(){}};
+    var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;
+    s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
     
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/5d36ed529b94cd38bbe8d2c1/default';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })(); `}} />
+     `}}/>
       </body>
     </html>
   )
